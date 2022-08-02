@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {% load static %}
+  <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <title>Portfolio</title>
+</head>
+
+<body style="background-color:rgba(0, 0, 0, 0.884)">
+  <nav class="nav">
+    <div class="container">
+      <div class="logo">
+        <a href="#"><b><span style="color:yellow">MY</span><span style="color:aqua">portfolio</span></b></a>
+      </div>
+      <div id="mainListDiv" class="main_list">
+        <ul class="navlinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <span class="navTrigger">
+        <i></i>
+        <i></i>
+        <i></i>
+      </span>
+    </div>
+  </nav>
+
+  <!-- This is background image -->
+  <section class="home">
+  </section>
+
+  <!-- Typewriter effect Heading -->
+  <div>
+  <div class="container2">
+    <h1>Hello!</h1>
+    <h1>I am <span style="color:aqua">Mayank</span>, Welcome.</h1>
+  </div>
+</div>
+  <div style="padding-top:3vw">
+    <h1 id="about" style="color:aqua; text-align:right;margin-right:15vw; font-size: 6vw; font-weight: bolder;">About Me</h1>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+    <img src="static/images/my_pic.png" style="width:30vw; border-radius: 50%; box-shadow: inset 0px -100px 10px -10px rgb(0, 255, 234); background-image:linear-gradient(to bottom, rgba(130, 124, 124, 0.884),rgb(0, 0, 0, 0.884), aqua)"> 
+  </div>    
+    <div class="col-sm-5">
+          <div class="h-100 p-5" style="background-color:rgba(0, 0, 0, 0.553); border-radius: 15%; box-shadow: 2px 5px 30px rgb(0, 255, 234)">
+          <br>  <h1 style="color:white">Hello! I am Mayank from New Delhi. Welcome to my portfolio which represents all that I've learned and accomplished as a Bachelor in Computer Application student. With an inquisitive and technophilic personality, I've become confident over the years about my coding and debugging skills. I'm obsessed with making things and even more obsessed with making things a lot better.</h1>
+          </div>
+        </div>
+      </div>
+
+<!-- skills       -->
+<div style="padding-top:3vw">
+  <hr class="hr1">
+  <h1 id="skills" style="color:aqua; text-align:left; margin-left: 5vw;font-size: 6vw; font-weight: bolder;">Skills</h1>
+</div>
+      <div class="row">
+        <div class="col-md-6">
+        <h1  style="color:rgb(238, 255, 0); text-align:left; margin-left: 5vw; font-size: 3vw; font-weight: bold; margin-top: 4vw;"><u>Soft Skills</u></h1>
+      </div>
+      <div class="col-md-6">
+        <div class="animated-title">
+        <div class="text-top">
+          <div>
+            <span>Creative</span>
+            <span>Hard Working</span>
+          </div>
+        </div>
+        <div class="text-bottom">
+          <div>
+          <span>Quick Learner</span>
+            <span>Leadership Quality</span></div>
+        </div>
+      </div>  
+    </div>
+  </div>
+
+<!-- Hard Skills  -->
+<div class="row" style="padding-top:3vw">
+  <div class="col-md-6">
+  <h1  style="color:rgb(238, 255, 0); text-align:left; margin-left: 5vw; font-size: 3vw; font-weight: bold; margin-top: 4vw;"><u>Hard Skills</u></h1>
+</div>
+<div class="col-md-6">
+<div class="grid-container">
+  <div class="grid-item"><div role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="--value:80" ></div>HTML</div>
+  <div class="grid-item"><div role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="--value:60" ></div>CSS</div>
+  <div class="grid-item"><div role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="--value:40" ></div>JavaScript</div>  
+  <div class="grid-item"><div role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="--value:80" ></div>Django</div>
+  <div class="grid-item"><div role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="--value:70" ></div>Python</div>
+</div>
+</div>
+</div>
+<div id="project"></div><br>
+<hr class="hr1">
+<!-- Projects -->
+<h1 style="color:aqua; text-align:center; font-size: 6vw; font-weight: bolder;"><u>Projects</u></h1>
+<div id="projects">
+<section>
+  <div class="container">
+    <div class="card">
+      <div class="content">
+        <div class="imgBx">
+          <img src="/static/images/properties.gif">
+        </div>
+        <div class="contentBx">
+          <h3>Properties Website<br><span>Made with - Django</span></h3>
+        </div>
+      </div>
+      <ul class="sci">
+        <li>
+          <a href="https://mayankberry.pythonanywhere.com/">GaganProperties.pythonanywhere.com</a>
+        </li>
+      </ul>
+    </div>
+    <div class="card">
+      <div class="content">
+        <div class="imgBx">
+          <img src="/static/images/dd.gif">
+        </div>
+        <div class="contentBx">
+          <h3>Discussion Desk<br><span>Made with - Django</span></h3>
+        </div>
+      </div>
+      <ul class="sci">
+        <li>
+          <a href="https://discussiondesk.pythonanywhere.com/">Discussion-Desk.pythonanywhere.com</a>
+        </li>
+      </ul>
+    </div>
+    <div class="card">
+      <div class="content">
+        <div class="imgBx">
+          <img src="/static/images/portfolio.gif">
+        </div>
+        <div class="contentBx">
+          <h3>Portfolio Website<br><span>Made with - Django</span></h3>
+        </div>
+      </div>
+      <ul class="sci">
+        <li>
+          <a href="">happy</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+</div>
+
+<!-- Contact  -->
+<hr class="hr1">
+
+<div class="container" id="contact">
+	<div class="row">
+			<h1>Contact Me</h1>
+	</div>
+	<div class="row">
+			<!-- <h4 style="text-align:center">We'd love to hear from you!</h4> -->
+      <div class="content-center">
+        <ul>
+            <li><a href="https://github.com/mayankberry"><i class="fa fa-github fa-2x"></i></a></li>
+            <li><a href="https://twitter.com/BerryMayank"><i class="fa fa-twitter fa-2x"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/mayank-berry-bbb363194/"><i class="fa fa-linkedin fa-2x"></i></a></li>
+            <li><a href="https://www.instagram.com/mayank_berry/"><i class="fa fa-instagram fa-2x"></i></a></li>
+            <li><a href="mailto:mayank.berry.5b@gmail.com"><i class="fa fa-envelope fa-2x"></i></a></li>
+        </ul>
+    </div>
+	</div>
+	<center>
+    <form method="POST" action="\contact">
+      {% csrf_token %}
+    <div class="row input-container">
+			<div class="col-xs-12">
+    <div class="form-group">
+				<div class="styled-input wide">
+					<input type="text" id="name" name="name" required />
+					<label>Name</label> 
+				</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+    <div class="form-group">
+				<div class="styled-input">
+					<input type="email" id="email" name="email" required />
+					<label>Email</label> 
+				</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+    <div class="form-group">
+				<div class="styled-input" style="float:right;">
+					<input type="phone" id="phone" name="phone" required />
+					<label>Phone Number</label> 
+			</div>
+    </div>
+			</div>
+			<div class="col-xs-12">
+    <div class="form-group">
+				<div class="styled-input wide">
+					<textarea id="msg" name="msg" rows="3" required style="resize:none;"></textarea>
+					<label>Message</label>
+			</div>
+    </div>
+			</div>
+			<div class="col-xs-12">
+    <div class="form-group">
+				<button class="btn-lrg submit-btn" type="Submit">Send</button>
+			</div>
+			</div>
+	</div>
+</form>
+</center>
+</div>
+      <!-- javascript -->
+  <script>
+    $(window).scroll(function () {
+      if ($(document).scrollTop() > 50) {
+        $('.nav').addClass('affix');
+        console.log("OK");
+      } else {
+        $('.nav').removeClass('affix');
+      }
+    });
+  </script>
+
+  <script>$('.navTrigger').click(function () {
+      $(this).toggleClass('active');
+      console.log("Clicked menu");
+      $("#mainListDiv").toggleClass("show_list");
+      $("#mainListDiv").fadeIn();
+
+    });
+  </script>
+</body>
+
+</html>
